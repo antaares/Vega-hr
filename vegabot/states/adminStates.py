@@ -1,0 +1,42 @@
+from aiogram.dispatcher.filters.state import State,StatesGroup
+
+class AdminState(StatesGroup):
+    photo = State()
+    format_type =State()
+    format_type2 =State()
+    format_pri = State()
+    format_pri2 = State()
+    caption = State()
+    author = State()
+    date = State()
+    mavzu = State()
+    price = State()
+    place = State()
+    comfirm = State()
+    delete = State()
+    delete_tre = State()
+    holat = State()
+    holathint = State()
+    hint_1 = State()
+    hint_2 = State()
+    hint_3 = State()
+    hint_4 = State()
+    hint_5 = State()
+    hint_6 = State()
+
+
+
+class AdminState2(StatesGroup):
+    photo = State()
+    format_type =State()
+    format_pri = State()
+    caption = State()
+    author = State()
+    date = State()
+    mavzu = State()
+    price = State()
+    place = State()
+    comfirm = State()
+    delete = State()
+    holat = State()
+    holathint = State()
